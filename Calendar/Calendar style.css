@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    background-color: #f8f7f7;
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 8px #ccc;
+}
+caption {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+th, td {
+    border: 1px solid #ddd;
+    width: 14.28%;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sunday {
+    color: rgb(255, 0, 0);
+}
+.monday {
+    color: rgb(118, 28, 28);
+}
+.tuesday {
+    color: rgb(255, 0, 0);
+}
+.wednesday {
+    color: rgb(255, 0, 0);
+}
+.saturday {
+    color: rgb(157, 46, 46);
+}
+    
