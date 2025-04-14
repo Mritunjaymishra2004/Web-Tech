@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Observations</title>
+</head>
+<body>
+
+    <h1>Form Observations</h1>
+
+    <h2>Google Sign-up Page Form</h2>
+    <form action="#" method="POST">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <label for="email">Email or Phone:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm-password">Confirm Password:</label><br>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+    <p>Validation: <strong>Fields are required. Password and Confirm Password must match.</strong></p>
+
+    <h2>Amazon Login Page Form</h2>
+    <form action="#" method="POST">
+        <label for="amazon-email">Email or Mobile Number:</label><br>
+        <input type="email" id="amazon-email" name="amazon-email" required><br><br>
+
+        <label for="amazon-password">Password:</label><br>
+        <input type="password" id="amazon-password" name="amazon-password" required><br><br>
+
+        <button type="submit">Login</button>
+    </form>
+    <p>Validation: <strong>Fields are required. Enter a valid email format. Password should be at least 6 characters.</strong></p>
+
+    <h2>Observations</h2>
+    <ul>
+        <li><strong>Google Sign-up:</strong>
+            <ul>
+                <li>Form Fields: First Name, Last Name, Email/Phone, Password, Confirm Password</li>
+                <li>Purpose: Collects user personal information and account details</li>
+                <li>Validation: Fields are required. The Confirm Password field must match the Password field.</li>
+            </ul>
+        </li>
+        <li><strong>Amazon Login:</strong>
+            <ul>
+                <li>Form Fields: Email/Phone, Password</li>
+                <li>Purpose: Allows existing users to login to their account</li>
+                <li>Validation: Email field must follow a valid format, and Password must be at least 6 characters.</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
