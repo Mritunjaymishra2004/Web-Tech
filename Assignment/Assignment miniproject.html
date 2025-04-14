@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+
+    <h1>Job Application Form</h1>
+
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <!-- Full Name -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <!-- Position Applied For -->
+        <label for="position">Position Applied For:</label><br>
+        <select id="position" name="position" required>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="manager">Manager</option>
+            <option value="hr">HR</option>
+        </select><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <!-- Preferred Contact Method -->
+        <label for="contact">Preferred Contact Method:</label><br>
+        <input type="checkbox" id="email-contact" name="contact" value="email">
+        <label for="email-contact">Email</label><br>
+        <input type="checkbox" id="phone-contact" name="contact" value="phone">
+        <label for="phone-contact">Phone</label><br><br>
+
+        <!-- Resume Upload -->
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Application</button>
+    </form>
+
+</body>
+</html>
