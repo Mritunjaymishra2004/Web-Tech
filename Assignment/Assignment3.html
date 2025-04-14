@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Assignment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+    }
+    table, th, td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 10px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    img {
+      display: block;
+      margin: 20px 0;
+    }
+    .frames {
+      display: flex;
+      height: 300px;
+      margin-top: 30px;
+    }
+    .left-menu {
+      width: 30%;
+      background-color: #ddd;
+      padding: 20px;
+    }
+    .right-content {
+      width: 70%;
+      background-color: #eee;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Student Report Card</h1>
+
+    <table>
+      <tr>
+        <th colspan="4">Semester Report</th>
+      </tr>
+      <tr>
+        <th>Student Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td rowspan="3">Ayesha</td>
+        <td>Math</td>
+        <td>90</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>85</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>92</td>
+        <td>A</td>
+      </tr>
+    </table>
+
+    <h2>Displayed Image</h2>
+    <img src="cat.jpg" alt="A cute cat" width="400">
+
+    <div class="frames">
+      <div class="left-menu">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="right-content">
+        <h3 id="home">Home</h3>
+        <p>This is the home page content.</p>
+
+        <h3 id="gallery">Gallery</h3>
+        <p>This is the gallery section.</p>
+
+        <h3 id="contact">Contact</h3>
+        <p>This is the contact section.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
